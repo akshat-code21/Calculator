@@ -23,15 +23,15 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 80px;
     font-family: "Nunito Sans";
     font-weight: 500;
 }
 #calculator{
     border: 2px solid green;
     border-radius: 7px;
-    width: 30vw;
-    height: 75vh;
+    /* width: 30vw; */
+    /* height: 75vh; */
     font-family: "Nunito Sans";
     font-weight: 500;
 }
@@ -44,6 +44,7 @@ section{
     color: white;
     height: 15%;
     font-size: 2rem;
+    text-align: right;
 }
 #keys{
     display: grid;
@@ -57,7 +58,7 @@ section{
     border: 2px solid transparent;
     padding: 20px;
     border-radius: 50%;
-    height: 10vh;
+    /* height: 10vh; */
     text-align: center;
     font-size: 26px;
     cursor: pointer;
