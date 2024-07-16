@@ -12,7 +12,7 @@
     </header>
     <section>
         <div id="calculator">
-            <input type="text" id="display" >
+            <input type="text" id="display" readonly>
             <div id="keys">
                 <button onclick="appendToDisplay('+')" class="operation">+</button>
                 <button onclick="appendToDisplay('7')">7</button>
@@ -26,11 +26,13 @@
                 <button onclick="appendToDisplay('1')">1</button>
                 <button onclick="appendToDisplay('2')">2</button>
                 <button onclick="appendToDisplay('3')">3</button>
-                <button onclick="appendToDisplay('/')" class="operation">/</button>
+                <button onclick="appendToDisplay('/')" class="operation">&#247;</button>
                 <button onclick="appendToDisplay('0')">0</button>
                 <button onclick="appendToDisplay('.')">.</button>
                 <button onclick="calculate()">=</button>
                 <button onclick="clearDisplay()" class="operation">C</button>
+                <button onclick="appendfwdToDisplay('-')">+/-</button>
+                <button onclick="calculatePercentage()">%</button>
             </div>
         </div>
     </section>

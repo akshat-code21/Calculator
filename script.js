@@ -5,6 +5,10 @@ function appendToDisplay(char) {
   display.value = display.value + char;
   //   console.log(data);
 }
+function appendfwdToDisplay(char) {
+  display.value = char + display.value ;
+  //   console.log(data);
+}
 function clearDisplay() {
     display.value = "";
 }
@@ -18,3 +22,10 @@ function calculate() {
     }
 }
 
+function calculatePercentage() {
+    try {
+        display.value = eval(display.value + '/ 100');
+    } catch (error) {
+        display.value = "error";
+    }
+}

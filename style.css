@@ -83,4 +83,10 @@ section{
 }
 .operation{
     background-color: #fea91c !important;
+    font-size: 28px;
+    font-weight: bold;
+}
+.operation:active{
+    background-color: white !important;
+    color : #fea91c !important;
 }
